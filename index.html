@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplon.co</title>
+
+    <!-- lien CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Mes fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Mon header et sa navigation -->
+    <header>
+        <img src="img\logo-simplon-1.png" alt="Logo de Simplon">
+
+        <nav class="navLink">
+            <ul>
+                <li>Entreprises</li>
+                <li>Réseaux</li>
+                <li>A propos</li>
+                <li class="deroulant"><a href="#">Collaborer </a></li>
+                <li class="deroulant"> <a href="#">Formation </a></li>
+                <li>Contact</li>
+                 <!-- Normalement on devrais mettre des <a href=""></a> dans les <li> mais comme on  pas de lien a mettre dedans je me suis permise de ne pas en mettre  -->
+            </ul>
+        </nav>
+
+        <div class="menuBurger">
+            <span class="barre1"></span>
+            <span class="barre2"></span>
+            <span class="barre3"></span>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Ma section accueil -->
+        <section class="accueil">
+
+            <div class="text">
+
+                <img src="img\logo-accueil.png" alt="Simplon avec le logo à la place du haut">
+                <h2>Simplon, réseau de Fabriques
+                    numériques et inclusives</h2>
+                <p>Simplon.co est un réseau de Fabriques solidaires et inclusives qui proposent des formations gratuites
+                    aux métiers techniques du numérique en France et à l’étranger</p>
+
+                <div class="buttons">
+                    <!-- ici comme pour la navigation je me suis permise de ne pas mettre de liens -->
+                    <button class="redButton">Nos formations</button>
+                    <button class="whiteButton"> Une question ? </button>
+                </div>
+                
+            </div>
+
+            <img class="imgAccueil" src="img\img-accueil.png" alt="Image d'apprenant heureux">
+
+        </section>
+
+        <!-- Ma section statistiques -->
+
+        <h2>Notre Impact</h2>
+
+        <section class="stats">
+
+            <div>
+                <h3>8624</h3>
+                <p>Simploniens dans le monde</p>
+                <img src="img\fleche retour.png" alt="Fleche vers :">
+            </div>
+
+            <div>
+                <h3>99</h3>
+                <p>Fabriques dans le monde</p>
+                <img src="img\fleche retour.png" alt="Fleche vers :">
+            </div>
+
+            <div>
+                <h3>70</h3>
+                <p>De sorties positives après la formation</p>
+                <img src="img\fleche retour.png" alt="Fleche vers :">
+            </div>
+
+            <div id="redBox">
+                <p>Notre bilan d’impact social</p>
+                <img class="WhiteArrow" src="img\fleche retour blanche.png" alt="Fleche vers :">
+            </div>
+
+        </section>
+
+        <!-- Les témoignages -->
+
+        <h2>Témoignages</h2>
+
+        <section class="temoignage">
+            <!-- premier temoignage -->
+           <div class="description">
+
+                <div class="leftSide">
+
+                    <img src="img\“.png" alt="guillemets">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde distinctio nisi facilis porro eligendi sint? Odit dolores necessitatibus impedit veritatis quod perferendis sunt sed, deleniti perspiciatis soluta est, accusantium incidunt.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt nemo est cupiditate aliquam nostrum ut architecto illum mollitia repellendus officia voluptatem harum quaerat, unde quidem facilis asperiores commodi odio maxime.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio impedit voluptas nisi tempore quia quod ad aliquid eius deleniti minus iusto voluptatem illo fuga, pariatur vel sapiente hic dolores! Ducimus?</p>
+
+                    <p class="bold">Jonathan, Simplonien en alternance à la société génrale après une formation développeur Web Java</p>
+
+                </div>
+
+                <div class="rightSide">
+                    <img class="imgTemoignage" src="img\temoignages-1-img.png" alt="image d'un apprenant à la scociété générale">
+
+                    <div class="carousel">
+                        <img src="img\Vector (1).png" alt="fleche de défilement vers la gauche">
+                        <p><span class="bold"> 01 </span> 02  03</p>
+                        <img src="img\vector.png" alt="fleche de défilement vers la droite">
+                    </div>
+                </div>
+                
+           </div>
+
+           <!-- deuxième témoignage -->
+           <div class="description">
+            
+                <div class="leftSide">
+                     <img src="img\“.png" alt="guillemets">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde distinctio nisi facilis porro eligendi sint? Odit dolores necessitatibus impedit veritatis quod perferendis sunt sed, deleniti perspiciatis soluta est, accusantium incidunt.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt nemo est cupiditate aliquam nostrum ut architecto illum mollitia repellendus officia voluptatem harum quaerat, unde quidem facilis asperiores commodi odio maxime.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio impedit voluptas nisi tempore quia quod ad aliquid eius deleniti minus iusto voluptatem illo fuga, pariatur vel sapiente hic dolores! Ducimus?</p>
+
+                    <p class="bold">AIcha, Simplonniene en freelance après une formation développeur Data I.A</p>
+                </div>
+
+                <div class="rightSide">
+                    <img class="imgTemoignage" src="img\temoignages-3-img.png" alt="image d'un apprenant à la scociété générale">
+
+                    <div class="carousel">
+                        <img src="img\Vector (1).png" alt="fleche de défilement vers la gauche">
+                        <p> 01 <span class="bold"> 02 </span>  03</p>
+                        <img src="img\vector.png" alt="fleche de défilement vers la droite">
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- troisième témoignage -->
+            <div class="description">
+                <div class="leftSide">
+                    <img src="img\“.png" alt="guillemets">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde distinctio nisi facilis porro eligendi sint? Odit dolores necessitatibus impedit veritatis quod perferendis sunt sed, deleniti perspiciatis soluta est, accusantium incidunt.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt nemo est cupiditate aliquam nostrum ut architecto illum mollitia repellendus officia voluptatem harum quaerat, unde quidem facilis asperiores commodi odio maxime.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio impedit voluptas nisi tempore quia quod ad aliquid eius deleniti minus iusto voluptatem illo fuga, pariatur vel sapiente hic dolores! Ducimus?</p>
+
+                    <p class="bold600">Imane, Simplonniene en CDI chez Le bon coin après une formation développeur Web & mobile</p>
+                </div>
+
+                <div class="rightSide">
+                    <img class="imgTemoignage"  src="img\temoignages-2-img.png" alt="image d'un apprenant à la scociété générale">
+
+                    <div class="carousel">
+                        <img src="img\Vector (1).png" alt="fleche de défilement vers la gauche">
+                        <p> 01  02 <span class="bold"> 03 </span></p>
+                        <img src="img\vector.png" alt="fleche de défilement vers la droite">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Les apprentis -->
+        <h2>Apprentis Simplon</h2>
+        
+        <div class="apprentice">
+            
+            <img class="apprenticeimg" src="img\img-apprentis.png" alt="image d'apprentis en train de travailler">
+
+            <div>
+                <img src="img\img-apprentis.png" alt="image d'apprentis en train de travailler">
+
+                <h3>Les CFA Simplon proposent désormais des formations en apprentissage pour les jeunes</h3>
+                <p>Simplon propose depuis janvier toutes ses formations certifiantes au travers de titres professionnels en apprentissage</p>
+                <button class="redButton">En Savoir Plus</button>
+            </div>
+
+        </div>
+
+        <!-- Les partenaires -->
+        <h2>Ils nous soutiennent</h2>
+
+        <section class="partenaire">
+
+            <div class="marquee">
+                <ul class="marquee-content">
+                    <li><img src="img\logo-avanade.png" alt=""></li>
+                    <li><img src="img\logo-binance.png" alt=""></li>
+                    <li><img src="img\logo-caisse-depots.png" alt=""></li>
+                    <li><img src="img\logo-idf.png" alt=""></li>
+                    <li><img src="img\logo-investissement.png" alt=""></li>
+                    <li><img src="img\logo-meta.png" alt=""></li>
+                    <li><img src="img\logo-paris.png" alt=""></li>
+                    <li><img src="img\logo-renault.png" alt=""></li>
+                    <li><img src="img\logo-sg.png" alt=""></li>
+                    <li><img src="img\logo-ue.png" alt=""></li>
+                </ul>
+            </div>
+
+            <div class="logo"> 
+                
+                
+            </div>
+
+            <div class="carousel2">
+
+                <img class="vector" src="img\Vector (1).png" alt="fleche de défilement vers la gauche">
+
+                <button>
+                    <img src="img\barre pause.png" alt="boutton pause">
+                    <img src="img\barre pause.png" alt="boutton pause">
+                </button>
+
+                <img class="vector" src="img\vector.png" alt="fleche de défilement vers la droite">
+
+                <img class="fleche" src="img\fleche retour blanche.png" alt="Flèche de retour blanche">
+
+            </div>
+
+        </section>
+        
+    </main>
+
+    <footer>
+
+        <img class="logoSimplon" src="img\footer-logo-img.png" alt="">
+
+        <div class="footerFirstPart">
+            
+            <div class="newsetter">
+ 
+                <h3>Restez informés</h3>
+                <p>Inscrivez-vous à la newsletter</p>
+                    
+                <form>
+                    <input type="email">
+                    <label for=""><img src="img\icon-mail.png" alt="iconne d'email"></label>
+                </form> 
+    
+            </div>
+        </div>
+        
+        <div class="footertLastPart">
+
+            <img class="reseaux" src="img\reseaux.png" alt="logos de réseaux scociaux">
+            <nav>
+                <ul>
+                    <li class="noBorder">Nos actualitées</li>
+                    <li>Rejoindre nos équipes</li>
+                    <li>Notre agence numérique</li>
+                    <li>Presse</li>
+                    <li>Contact</li>
+                    <li>Plan du site</li>
+                    <li>Mention légales</li>
+                    <li>Accessibilité</li>
+                </ul>
+            </nav> 
+
+        </div>        
+
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
